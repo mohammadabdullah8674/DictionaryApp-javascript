@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="h-screen bg-violet-200 ">
+        <div class="bg-white">
+            <h1 class="py-4 text-xl text-center font-bold">My Dictionary</h1>
+        </div>
+        <div class="bg-white mx-auto mt-20 text-center w-1/2 rounded-lg py-3 pt-4 px-2 drop-shadow-xl">
+                <input id="input" type="text" placeholder="Enter your Word here..." class=" w-3/4 mt-2 mx-2 inline px-3 py-2 bg-white border border-violet-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                  focus:outline-none focus:border-violet-500 focus:ring-1 focus:ring-violet-500"/>
+                <button id="search" class="bg-violet-400 my-2 px-3 py-2 sm:px-5  rounded-lg">Search</button>
+                <div class="text-center mt-5 px-2 py-3">
+                    <p class="text-violet-400" id="input-word">Meaning or Definitions will be here....</p>
+                    <div id="result" class="text-left mt-3 px-3 overflow-auto"></div>
+                </div>
+        </div>
+        <footer class="text-center absolute bottom-3 w-full text-violet-600">Made with ❤ by <a href="https://github.com/mohammadabdullah8674/" target="_blank" rel="noopener noreferrer"><strong>Mohd Abdullah</strong></a> © 2022</footer>
+    </div>
+
+
+    
+</body>
+</html>
